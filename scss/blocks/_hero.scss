@@ -1,0 +1,47 @@
+.hero__section {
+   background-color: #fafafa;
+}
+
+.hero__box {
+   position: relative;
+   padding: 170px 0 170px;
+   width: 429px;
+}
+
+.hero__title {
+   margin-bottom: 24px;
+   font-family: 'Public Sans', sans-serif;
+   font-style: normal;
+   font-weight: 100;
+   font-size: 56px;
+   line-height: 64px;
+   color: #2D314D;
+}
+
+.site__hero-text {
+   margin-bottom: 36px;
+   font-family: 'PublicSans', sans-serif;
+   font-size: 18px;
+   line-height: 28px;
+   letter-spacing: -0.28125px;
+   color: #9597A5;
+}
+
+.main__hero-link {
+   padding: 13px 36px 14px 33px;
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   color: #FFFFFF;
+   background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+   border-radius: 22px;
+}
+
+.main__hero-link:hover {
+   width: 51px;
+   height: 4px;
+   background-color: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+   border-radius: 22px;
+}
+

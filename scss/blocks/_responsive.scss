@@ -1,0 +1,50 @@
+@media only screen and (max-width: 780px) { 
+   .nav__link {
+      display: none;
+   }
+   .header__invite-link {
+      display: none;
+   }
+   .hamburger {
+      display: block;
+   }
+   .hero__title {
+      font-family: 'Public Sans', sans-serif;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 40px;
+      line-height: 47px;
+      text-align: center;
+      color: #2D314D;
+   }
+}
+@media only screen and (max-width: 768px) {
+   .hero__title {
+      margin-left: 18px;
+      margin-top: -10px;
+   }
+   .site__hero-text {
+      width: 327px;
+      margin-left: 75px;
+      font-family: 'PublicSans', sans-serif;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: -0.234375px;
+      color: #9597A5;
+   }
+   .main__hero-link {
+      margin-left: 135px;
+   }
+   
+   .medium__title {
+      width: 327px;
+      text-align: center;
+   }
+   
+}
+@media only screen and (max-width: 1252px) {
+   .list {
+      display: block;
+      flex-wrap: wrap;
+   }  
+}
